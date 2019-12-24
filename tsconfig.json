@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "types": [
+            "liff-type"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

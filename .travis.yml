@@ -1,0 +1,15 @@
+jobs:
+  include:
+    - stage: Web Deploy
+      language: node_js
+      node_js:
+        - 13
+      before_deploy:
+        - npm run build
+      deploy:
+        provider: pages
+        skip_cleanup: true
+        local_dir: ./dist
+        github_token: $GITHUB_TOKEN
+        on:
+          branch: master
