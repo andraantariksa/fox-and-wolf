@@ -19,7 +19,9 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
 
     title: "Fox and Wolf",
     version: "0.0.1",
-    url: "https://localhost:10001"
+    url: "https://andraaa.space/fox-and-wolf/"
+    // Development only!
+    // url: "https://localhost:10001"
 };
 
 const liffConfig = {
